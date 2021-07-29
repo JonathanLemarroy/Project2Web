@@ -6,7 +6,7 @@ const submitBtn = document.getElementById("submitbtn");
 const errorMsg = document.getElementById("errormsg");
 const successMsg = document.getElementById("successmsg");
 const pageTitle = document.getElementById("pagetitle");
-let serverUrl = window.location.protocol + "//" + window.location.host + "/";
+let serverUrl = "http://127.0.0.1:7000/";
 
 async function createExercise() {
 	errorMsg.innerHTML = "";

@@ -1,5 +1,5 @@
 window.onload = function () {
-	let serverUrl = window.location.protocol + "//" + window.location.host + "/";
+	let serverUrl = "http://127.0.0.1:7000/";
 
 	const username = document.getElementById("username");
 	const password = document.getElementById("password");

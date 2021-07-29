@@ -17,7 +17,7 @@ let filteredExerciseList = [];
 let addedExercises = [];
 //Html to be added on the searchbar/dropdown
 let exerciseOptions;
-let serverUrl = window.location.protocol + "//" + window.location.host + "/";
+let serverUrl = "http://127.0.0.1:7000/";
 
 //Only called once per page load
 //Calls endpoint GET ALL EXERCISES and puts them into list

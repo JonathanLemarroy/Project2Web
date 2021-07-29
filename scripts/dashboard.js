@@ -3,7 +3,7 @@ const pageTitle = document.getElementById("pagetitle");
 const routineList = document.getElementById("routinelist");
 let routines = "";
 let routinesList = [];
-let serverUrl = "http://3.91.177.58:7000/";
+let serverUrl = window.location.protocol + "//" + window.location.host + "/";
 
 async function listRoutines() {
 	const config = {
